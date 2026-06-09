@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react"
 
-const WORDS = ["game", "spiel", "match", "round", "play", "title", "banger", "klassiker", "game"]
-const FINAL_WORD = "game"
+const WORDS = ["Ledger", "Bitbox", "Larping", "Geil", "LQ", "Glegg", "Peter", "VibeCoding", "Gaming Geil"]
+const FINAL_WORD = "LedgerLQ"
 
 export function SlotWord() {
   const [index, setIndex] = useState(0)
